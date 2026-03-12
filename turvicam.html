@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turvicam - Soluções Internacionais</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="container nav">
+        <img src="./assets/logo_nova.png" alt="Turvicam Logo" class="logo" />
+
+        <button class="mobile-menu-btn" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="menu">
+          <a href="#cambio"
+            ><i class="fa-solid fa-money-bill-trend-up"></i> Câmbio</a
+          >
+          <a href="#servicos"><i class="fa-solid fa-briefcase"></i> Serviços</a>
+          <a href="#sobre"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+          <a href="#blog"><i class="fa-solid fa-newspaper"></i> Blog</a>
+          <a href="#contato"><i class="fa-solid fa-envelope"></i> Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-noise"></div>
+      <div class="hero-blob blob-1"></div>
+      <div class="hero-blob blob-2"></div>
+
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-eyebrow">
+            Câmbio • Remessas • Envios Internacionais
+          </div>
+          <div class="hero-highlight">
+            <i class="fa-solid fa-shield-halved"></i>
+            Autorizada e focada em segurança
+          </div>
+          <h1>
+            Conectando você ao mundo com câmbio, remessas e envios
+            internacionais.
+          </h1>
+          <p>
+            Soluções rápidas, seguras e personalizadas para quem vive entre
+            países, viaja com frequência ou faz negócios globais.
+          </p>
+
+          <div class="hero-buttons">
+            <button class="btn btn-primary">
+              <i class="fa-solid fa-calculator"></i>
+              Fazer cotação agora
+            </button>
+            <button class="btn btn-outline">
+              <i class="fa-solid fa-layer-group"></i>
+              Ver todos os serviços
+            </button>
+          </div>
+
+          <div class="hero-meta">
+            <span
+              ><i class="fa-solid fa-star"></i> +10 anos de experiência</span
+            >
+            <span
+              ><i class="fa-solid fa-user-check"></i> Atendimento
+              humanizado</span
+            >
+            <span><i class="fa-solid fa-globe"></i> Parceiros globais</span>
+          </div>
+        </div>
+
+        <div class="hero-mockup">
+          <div class="mockup-header">
+            <span>Painel Turvicam</span>
+            <div class="mockup-badges">
+              <span class="mockup-badge">Câmbio</span>
+              <span class="mockup-badge">Remessas</span>
+            </div>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-table">
+              <div class="mockup-table-header">
+                <span>Moeda</span>
+                <span>Compra</span>
+                <span>Venda</span>
+              </div>
+              <div class="mockup-row">
+                <div><strong>USD</strong> • Dólar</div>
+                <div class="mockup-buy">R$ 4,90</div>
+                <div class="mockup-sell">R$ 5,10</div>
+              </div>
+              <div class="mockup-row">
+                <div><strong>EUR</strong> • Euro</div>
+                <div class="mockup-buy">R$ 5,20</div>
+                <div class="mockup-sell">R$ 5,45</div>
+              </div>
+              <div class="mockup-row">
+                <div><strong>GBP</strong> • Libra</div>
+                <div class="mockup-buy">R$ 6,10</div>
+                <div class="mockup-sell">R$ 6,40</div>
+              </div>
+            </div>
+            <div class="mockup-side">
+              <div class="mockup-chip">
+                <i class="fa-solid fa-truck-fast"></i>
+                DHL Express ativo
+              </div>
+              <div class="mockup-chip">
+                <i class="fa-solid fa-money-bill-transfer"></i>
+                MoneyGram disponível
+              </div>
+              <div class="mockup-chip">
+                <i class="fa-solid fa-shield-heart"></i>
+                Seguro viagem pronto
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <!-- CÂMBIO -->
+      <section class="section" id="cambio">
+        <div class="container">
+          <div class="section-header">
+            <h2>Cotações de câmbio em tempo real</h2>
+            <p>
+              Acompanhe as principais moedas e faça sua cotação com
+              transparência e segurança.
+            </p>
+          </div>
+
+          <div class="exchange-card">
+            <div class="exchange-header">
+              <h3>Cotações Turvicam</h3>
+              <span>Atualizado em tempo real</span>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Moeda</th>
+                  <th>Compra</th>
+                  <th>Venda</th>
+                  <th>Ação</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Dólar Americano (USD)</td>
+                  <td class="price-buy">R$ 4,90</td>
+                  <td class="price-sell">R$ 5,10</td>
+                  <td>
+                    <button
+                      class="btn btn-primary"
+                      style="padding: 8px 18px; font-size: 0.8rem"
+                    >
+                      Comprar
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Euro (EUR)</td>
+                  <td class="price-buy">R$ 5,20</td>
+                  <td class="price-sell">R$ 5,45</td>
+                  <td>
+                    <button
+                      class="btn btn-primary"
+                      style="padding: 8px 18px; font-size: 0.8rem"
+                    >
+                      Comprar
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Libra Esterlina (GBP)</td>
+                  <td class="price-buy">R$ 6,10</td>
+                  <td class="price-sell">R$ 6,40</td>
+                  <td>
+                    <button
+                      class="btn btn-primary"
+                      style="padding: 8px 18px; font-size: 0.8rem"
+                    >
+                      Comprar
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVIÇOS -->
+      <section class="section services-section" id="servicos">
+        <div class="container">
+          <div class="section-header">
+            <h2>Nossos serviços</h2>
+            <p>
+              Uma estrutura completa para câmbio, remessas, envios e proteção em
+              viagens.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <div class="service-card">
+              <div
+                class="service-card-img"
+                style="background-image: url(&quot;./assets/dhl.jpg&quot;)"
+              ></div>
+              <div class="service-icon">
+                <i class="fa-solid fa-truck-fast"></i>
+              </div>
+              <h3>DHL Express</h3>
+              <p>
+                Envio rápido e rastreado de documentos e mercadorias para o
+                Brasil e o exterior.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div
+                class="service-card-img"
+                style="
+                  background-image: url(&quot;./assets/moneygram.jpg&quot;);
+                "
+              ></div>
+              <div class="service-icon">
+                <i class="fa-solid fa-money-bill-transfer"></i>
+              </div>
+              <h3>MoneyGram</h3>
+              <p>
+                Envio e recebimento de dinheiro com segurança, sem burocracia e
+                com suporte próximo.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div
+                class="service-card-img"
+                style="background-image: url(&quot;./assets/ouro.jpg&quot;)"
+              ></div>
+              <div class="service-icon"><i class="fa-solid fa-coins"></i></div>
+              <h3>Compra e venda de ouro</h3>
+              <p>
+                Operações seguras e transparentes para quem busca diversificar
+                investimentos.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div
+                class="service-card-img"
+                style="background-image: url(&quot;./assets/remessas.jpg&quot;)"
+              ></div>
+              <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+              <h3>Remessas internacionais</h3>
+              <p>
+                Pagamentos e transferências internacionais com taxas
+                competitivas e acompanhamento dedicado.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div
+                class="service-card-img"
+                style="background-image: url(&quot;./assets/seguro.jpg&quot;)"
+              ></div>
+              <div class="service-icon">
+                <i class="fa-solid fa-shield-heart"></i>
+              </div>
+              <h3>Seguro viagem</h3>
+              <p>
+                Cobertura completa para sua viagem, com assistência em diversos
+                países.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <div
+                class="service-card-img"
+                style="background-image: url(&quot;./assets/turismo.jpg&quot;)"
+              ></div>
+              <div class="service-icon">
+                <i class="fa-solid fa-suitcase-rolling"></i>
+              </div>
+              <h3>Turismo</h3>
+              <p>
+                Suporte ao viajante, com orientações, câmbio e serviços
+                complementares.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section class="section about-section" id="sobre">
+        <div class="container about-grid">
+          <div class="about-img">
+            <img
+              src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=80"
+              alt="Equipe Turvicam"
+              class="equipe_turvicam"
+            />
+          </div>
+          <div class="about-text">
+            <h2>A Turvicam</h2>
+            <p>
+              Somos especialistas em câmbio, remessas e serviços internacionais,
+              com foco em atendimento humano, segurança e transparência.
+            </p>
+            <p>
+              Atendemos quem vive entre países, viaja com frequência ou precisa
+              de soluções globais para negócios.
+            </p>
+            <div class="about-tags">
+              <span class="about-tag">+10 anos de mercado</span>
+              <span class="about-tag">Parcerias globais</span>
+              <span class="about-tag">Atendimento consultivo</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- BLOG -->
+      <section class="section blog-section" id="blog">
+        <div class="container">
+          <div class="section-header">
+            <h2>Conteúdos e dicas</h2>
+            <p>
+              Informações úteis para quem viaja, envia dinheiro ou faz negócios
+              internacionais.
+            </p>
+          </div>
+
+          <div class="blog-grid">
+            <div class="blog-card">
+              <div
+                class="blog-img"
+                style="background-image: url(&quot;./assets/financa.jpg&quot;)"
+              ></div>
+              <div class="blog-content">
+                <h3>Como se preparar para comprar moeda estrangeira</h3>
+                <p>
+                  Dicas práticas para planejar sua viagem e aproveitar as
+                  melhores taxas.
+                </p>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div
+                class="blog-img"
+                style="background-image: url(&quot;./assets/viagens.jpg&quot;)"
+              ></div>
+              <div class="blog-content">
+                <h3>Checklist essencial para viajar tranquilo</h3>
+                <p>
+                  Seguro, documentos, câmbio e tudo o que você precisa antes de
+                  embarcar.
+                </p>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div
+                class="blog-img"
+                style="
+                  background-image: url(&quot;./assets/graficos.jpeg&quot;);
+                "
+              ></div>
+              <div class="blog-content">
+                <h3>Envio de dinheiro para o exterior com segurança</h3>
+                <p>
+                  Entenda as opções e cuidados na hora de enviar valores para
+                  outros países.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="section contact-section" id="contato">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact-info">
+              <h3>Fale com a Turvicam</h3>
+              <p>
+                Conte com um time preparado para te orientar em câmbio,
+                remessas, envios e muito mais.
+              </p>
+              <div class="contact-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>Telefone e WhatsApp</strong><br />
+                  (91) 3201-5454
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>E-mail</strong><br />
+                  atendimento@turvicam.com.br
+                </div>
+              </div>
+
+              <div
+                class="units-grid"
+                style="
+                  margin-top: 25px;
+                  border-top: 1px solid rgba(148, 163, 184, 0.2);
+                  padding-top: 20px;
+                "
+              >
+                <strong>Nossas Unidades em Belém:</strong>
+
+                <div class="contact-item" style="margin-top: 10px">
+                  <i class="fa-solid fa-location-dot"></i>
+
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      margin-bottom: 5px;
+                    "
+                  >
+                    <strong style="margin-bottom: -8px"
+                      >Unidade Aeroporto</strong
+                    ><br />
+                    Aeroporto Internacional de Belém
+                    <p style="margin-bottom: 0; font-size: 0.8rem">
+                      Bairro: Val-de-cans | CEP: 66115-970
+                    </p>
+                    <small>Horário: De segunda a sábado das 06h à 00h</small>
+                  </div>
+                </div>
+                <div class="contact-item" style="margin-top: 5px">
+                  <i class="fa-solid fa-location-dot"></i>
+
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      margin-bottom: 5px;
+                    "
+                  >
+                    <strong style="margin-bottom: -8px"
+                      >Unidade Av. Presidente Vargas</strong
+                    ><br />
+                    Av. Presidente Vargas, Belém - PA
+                    <p style="margin-bottom: 0; font-size: 0.8rem">
+                      Bairro: Campina | CEP: 66017-000
+                    </p>
+                    <small
+                      >Horário: De segunda a sexta das 08h às 18h | sábado das
+                      08h às 14h</small
+                    >
+                  </div>
+                </div>
+                <div class="contact-item" style="margin-top: 5px">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div
+                    style="
+                      display: flex;
+                      flex-direction: column;
+                      margin-bottom: 5px;
+                    "
+                  >
+                    <strong style="margin-bottom: -8px"
+                      >Unidade Estação das Docas</strong
+                    ><br />
+                    Av. Boulevard Castilhos França, Belém - PA
+                    <p style="margin-bottom: 0; font-size: 0.8rem">
+                      Bairro: Campina | CEP: 66010-020
+                    </p>
+                    <small
+                      >Horário: De segunda a sexta das 10h às 14h / 15h às 19h |
+                      sábado das 10h às 14h</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-form">
+              <h3>Envie uma mensagem</h3>
+              <form>
+                <div class="form-group">
+                  <label class="form-label" for="nome">Nome</label>
+                  <input
+                    id="nome"
+                    type="text"
+                    class="form-input"
+                    placeholder="Nome completo"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">E-mail</label>
+                  <input
+                    id="email"
+                    type="email"
+                    class="form-input"
+                    placeholder="seuemail@exemplo.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="mensagem">Mensagem</label>
+                  <textarea
+                    id="mensagem"
+                    class="form-textarea"
+                    placeholder="Como podemos te ajudar?"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  Enviar mensagem
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <img
+              src="./assets/logo_nova.png"
+              alt="Turvicam Logo"
+              class="logo"
+            />
+            <p>
+              Soluções completas em câmbio, remessas internacionais, envios e
+              serviços para quem vive entre fronteiras.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Institucional</h4>
+            <ul>
+              <li><a href="#sobre">Sobre a Turvicam</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Serviços</h4>
+            <ul>
+              <li><a href="#cambio">Câmbio</a></li>
+              <li><a href="#servicos">DHL Express</a></li>
+              <li><a href="#servicos">MoneyGram</a></li>
+              <li><a href="#servicos">Seguro viagem</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Suporte</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Política de privacidade</a></li>
+              <li><a href="#">Termos de uso</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          © 2025 Turvicam. Todos os direitos reservados.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menu = document.querySelector(".menu");
+      const menuBtn = document.querySelector(".mobile-menu-btn");
+      const menuIcon = menuBtn.querySelector("i");
+      const overlay = document.querySelector(".menu-overlay");
+      const links = document.querySelectorAll(".menu a");
+
+      function toggleMenu() {
+        menu.classList.toggle("active");
+        overlay.classList.toggle("active");
+
+        // Alterna o ícone
+        if (menu.classList.contains("active")) {
+          menuIcon.classList.remove("fa-bars");
+          menuIcon.classList.add("fa-xmark");
+          document.body.style.overflow = "hidden";
+        } else {
+          menuIcon.classList.remove("fa-xmark");
+          menuIcon.classList.add("fa-bars");
+          document.body.style.overflow = "initial";
+        }
+      }
+
+      menuBtn.addEventListener("click", toggleMenu);
+      overlay.addEventListener("click", toggleMenu);
+
+      links.forEach((link) => {
+        link.addEventListener("click", toggleMenu);
+      });
+    </script>
+  </body>
+</html>
